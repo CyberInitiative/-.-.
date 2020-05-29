@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ELECTO Main Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Righteous&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" style="color: white;  font-family: 'Righteous', cursive;"> ELECTRO</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarsExampleDefault">
+        <ul style="font-family: 'Noto Sans JP', sans-serif;" class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav_font nav-link" href="main_page.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav_font nav-link" href="vehicles.html">Vehicles</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav_font nav-link" href="config.html">Configurations<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav_font nav-link" href="contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="px-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 title_font title_conf">Configurations</h1>
+      <p class="lead text_font">We provide three types of system configurations available for our electric vehicles.</p>
+      <p class="lead text_font">In addition to the standard configuration, which is included in the price of your car,
+        you can choose another, more advanced configuration that provides more options.
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Default</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title title_font">included</small></h1>
+            <ul class="list-unstyled mt-3 mb-4 text_font">
+              <li>Extreme mode available</li>
+              <li>Sport mode locked</li>
+              <li>Quick Charge locked</li>
+              <li>Quiet mode is locked</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-success title_font">Explore</button>
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Advanced</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title title_font">$3500</small></h1>
+            <ul class="list-unstyled mt-3 mb-4 text_font">
+              <li>Extreme mode available</li>
+              <li>Quick Charge available</li>
+              <li>Quick Charge locked</li>
+              <li>Quiet mode is locked</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-success title_font">Explore</button>
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Full</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title title_font">$5000</small></h1>
+            <ul class="list-unstyled mt-3 mb-4 text_font">
+              <li>Extreme mode available</li>
+              <li>Quick Charge available</li>
+              <li>Quick Charge available</li>
+              <li>Quiet mode available</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-success title_font">Explore</button>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <footer class="container">
+    <div class="row">
+      <div class="col-12 col-md">
+        <h5 class="title_font">ELECTRO</h5>
+        <small class="d-block mb-3 text-muted">&copy; 2017-2019</small>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

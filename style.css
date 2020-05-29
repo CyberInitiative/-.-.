@@ -1,0 +1,244 @@
+.logo {
+    font-family: 'Righteous', cursive;
+    color: #000000;
+    margin-top: 15px;
+    }
+
+.main{
+      text-shadow: black 0 0 10px;
+      color: white;
+      font-family: 'Righteous', cursive;
+}
+
+.main_sub{
+    text-shadow: black 0 0 6px;
+    color: white;
+}
+
+.nav_font{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+
+#i3_2019_main_pic {
+    background-size: cover;
+    background-position: 50% 24%;
+}
+
+#i3s_2019_main_pic {
+    background-size: cover;
+    background-position: 50% 70%;
+}
+
+#i3_2018_main_pic {
+  background-size: cover;
+  background-position: 50% 80%;
+}
+
+#i3s_2018_main_pic {
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.c1{
+    color: white ;
+}
+
+.title_font{
+    font-family: 'Righteous', cursive;
+    color: black;
+}
+
+.text_font{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+    
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+    
+.flex-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+   
+.overflow-hidden { overflow: hidden; }
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+
+  .featurette-divider-bottom {
+    margin-bottom: 5rem ; /* Space out the Bootstrap <hr> more */
+  }
+  
+.carousel {
+    margin-bottom: 4rem;
+  }
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+.carousel-item {
+    height: 32rem;
+    background-color: #777;
+  }
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: rgba(255, 255, 255, 0.0);
+  }
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+#img_1 {
+    background: url(img/test_3.jpg) no-repeat center/cover;
+    background-position: 50% 75%;
+}
+#img_2 {
+    background: url(img/test_4.jpg) no-repeat center/cover;
+    background-position: 50% 75%;
+}
+
+#img_3 {
+    background: url(img/test2_m.jpg) no-repeat center/cover;
+    background-position: 50% 65%;
+}
+
+  .button_position {
+    position: relative; right: 600px;
+  }
+
+  a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+@media (max-width: 575px) {
+    #i3s_2018_main_pic{
+      background-size: cover;
+      background-position: 75% 50%;
+  }
+}
+
+@media (max-width: 575px) {
+  #i3_2019_main_pic{
+    background-size: cover;
+    background-position: 44% 50%;
+}
+}
+
+@media (max-width: 575px) {
+  #i3s_2019_main_pic{
+    background-size: cover;
+    background-position: 80% 50%;
+}
+}
+
+@media (max-width: 575px) {
+    .img_slide{ 
+        opacity: 0.7;
+        object-position: -750px;}
+}
+
+@media (max-width: 575px) {
+    #img_3{ 
+        opacity: 0.9;
+        background-position: 50% 50%;
+    }
+}
+
+@media (max-width: 575px) {
+    #img_2{ 
+        opacity: 0.9;
+        background-position: 40% 50%;
+    }
+}
+
+@media (max-width: 575px) {
+    #img_1{ 
+        opacity: 0.9;
+    }
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+     font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      -webkit-box-flex: 1;
+      flex: 1;
+    }
+  }
+
+@media (max-width: 768px) {
+  .collapse_size {
+     font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title_conf {
+     font-size: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .button_position {
+      position: relative; right: 0px;
+  }
+}
+
+ @media (max-width: 1000px) {
+    .button_position {
+      position: relative; right: 0px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .button_position {
+     position: relative; right: 400px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .button_position {
+    position: relative; right: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .font_size {
+       font-size: 30px;
+    }
+  }
